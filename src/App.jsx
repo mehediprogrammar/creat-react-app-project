@@ -1,6 +1,8 @@
 
+import LineChart from "./components/LineChart/LineChart"
 import NavBer from "./components/NavBer/NavBer"
 import PriceOptions from "./components/PriceOptions/PriceOptions"
+
 
 
 
@@ -15,7 +17,8 @@ function App() {
      
       <NavBer></NavBer>
       <PriceOptions></PriceOptions>
-     
+      <LineChart></LineChart>
+      
     </>
   )
 }
